@@ -41,7 +41,7 @@ BLOB_KEY=$BLOB_KEY \
 BLOB_NAME=$STORAGE_ACCOUNT
 
 echo "Defining local settings"
-echo << EOF > local.settings.json
+cat <<EOF > local.settings.json
 {
 	"IsEncrypted": false,
 	"Values": {
