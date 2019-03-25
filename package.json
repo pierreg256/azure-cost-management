@@ -1,0 +1,16 @@
+{
+  "name": "azure-cost-analytics",
+  "version": "1.0.0",
+  "description": "Boilerplate project to start azure analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pierre Gilot",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^10.3.0",
+    "node-fetch": "^2.3.0"
+  }
+}
