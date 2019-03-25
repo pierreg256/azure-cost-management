@@ -13,4 +13,10 @@ This starter projects is a simple BASH script. You therefore need a BASH capable
 - always up to date
 - pretty fast to fire up
 
-To start a cloud shell just type the following URL in your favorite browser : ``http://www.disney.com``
+To start a cloud shell just type the following URL in your favorite browser : http://shell.azure.com
+
+Second, this project relies on the [azure Functions Core Tools](https://github.com/Azure/azure-functions-core-tools). PLease refer tho the documentation to have them installed before you continue! Usually a simple npm is enough:
+```npm i -g azure-functions-core-tools```
+
+## Installation
+lorem ipsum
