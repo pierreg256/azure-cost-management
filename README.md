@@ -15,8 +15,15 @@ This starter projects is a simple BASH script. You therefore need a BASH capable
 
 To start a cloud shell just type the following URL in your favorite browser : http://shell.azure.com
 
-Second, this project relies on the [azure Functions Core Tools](https://github.com/Azure/azure-functions-core-tools). PLease refer tho the documentation to have them installed before you continue! Usually a simple npm is enough:
+Second, this project relies on the [Azure Functions Core Tools](https://github.com/Azure/azure-functions-core-tools). PLease refer tho the documentation to have them installed before you continue! Usually a simple npm is enough:
 ```npm i -g azure-functions-core-tools```
+
+**WARNING** Be careful Azure Cloud Shell users! Cloud Shell does not allow you to install outside of your $HOME folder. Still, you can use Azure Functions Core Tools, but you'll have an extra setup step : be sure to be at the top of your $HOME hierarchy and type the following:
+
+```
+npm i azure-functions-core-tools
+export PATH=$PATH:~/node_modules/.bin
+```
 
 ## Installation
 lorem ipsum
