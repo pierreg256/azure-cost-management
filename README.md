@@ -26,4 +26,14 @@ export PATH=$PATH:~/node_modules/.bin
 ```
 
 ## Installation
-lorem ipsum
+1 clone this repo : 
+
+```git clone git clone https://github.com/pierreg256/azure-cost-management.git``` 
+
+2 Change dierrctory to the cloned repo and start the configuration process:
+
+```
+cd azure-cost-management
+./configure.sh
+```
+
